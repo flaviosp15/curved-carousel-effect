@@ -1,0 +1,63 @@
+:root {
+  --margin-right: 1rem;
+  --border-style: 1px solid rgba(210, 210, 210, 0.65);
+  --padding-1: 0.5rem;
+  --padding-2: 0.7rem;
+}
+:is(ul, header, nav, form) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header {
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-bottom: var(--border-style);
+}
+svg {
+  width: 1.5rem;
+  pointer-events: none;
+}
+ul > li:not(:last-child) {
+  margin-right: var(--margin-right);
+}
+a {
+  display: inline-block;
+  padding: var(--padding-2);
+}
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-right: var(--margin-right);
+  border-right: var(--border-style);
+}
+input {
+  padding: var(--padding-1);
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(210, 210, 210, 0.65);
+}
+input:focus {
+  outline: 1px solid rgba(190, 190, 190, 0.85);
+}
+button {
+  padding: var(--padding-1);
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.sign-in {
+  color: #fff;
+  background-color: #0e0e0e;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+  :is(header, nav) {
+    justify-content: center;
+  }
+  .logo {
+    border-right: initial;
+  }
+}

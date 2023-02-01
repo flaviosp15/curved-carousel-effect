@@ -1,0 +1,39 @@
+.container {
+  max-width: 64rem;
+  margin: auto;
+  padding: 7rem 1.5rem;
+}
+.container__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  color: #373838;
+}
+:is(h1, p) {
+  line-height: 1.2;
+}
+h1 {
+  max-width: 15ch;
+}
+h1 span {
+  font-size: 3.9rem;
+  background: -webkit-linear-gradient(#205d59 45%, #0e0e0e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p {
+  max-width: 43ch;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 4rem 1rem;
+  }
+  .container__grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  :is(h1, p) {
+    justify-self: center;
+  }
+}
