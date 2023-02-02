@@ -8,7 +8,7 @@
 
 Access the page by the link: [Curved Carousel](https://curved-carousel.netlify.app/)
 
-![](https://github.com/flaviosp15/curved-carousel-effect/tree/main/demo/demo.gif)
+![](https://github.com/flaviosp15/curved-carousel-effect/blob/main/demo/demo.gif)
 
 ## 🧠 Takeaways
 
