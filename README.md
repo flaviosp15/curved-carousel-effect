@@ -1,5 +1,7 @@
 # Curved Carousel Effect
 
+I built this project to show a curved carousel effect.
+
 ## 🛠️ Built With
 
 - ![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
