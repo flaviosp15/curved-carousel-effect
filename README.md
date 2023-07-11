@@ -4,7 +4,7 @@
 
 - ![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-## 🖼️ Demo
+## 🎬 Demo
 
 Access the page by the link: [Curved Carousel](https://curved-carousel.netlify.app/)
 
